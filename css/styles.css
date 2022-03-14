@@ -1,0 +1,94 @@
+body {
+    color: #252629;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    width: 100%;
+}
+
+header {
+    background-color: #FFFFFF;
+    height: 5%;
+}
+
+header img {
+    display: block;
+    margin: auto;
+    width: 50px;
+}
+
+nav {
+    color: #FFFFFF;
+    background-color: #3a1e01;
+    font-weight: 400;
+    height: 4rem;
+}
+
+nav ul {
+    float: right;
+    padding: 0.5rem 2rem;
+    margin-right: 4rem;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    padding: 1.5rem 2rem;
+}
+
+main {
+    display: inline-flex;
+    margin: 0;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+.heroImg {
+    background-color: #252629;
+    display: block;
+    float: left;
+    height: 30px;
+    margin: 0;
+    width: 30%;
+}
+
+.heroImg img {
+    width: 100%;
+}
+
+.solicitudes {
+    width: 70%;
+}
+
+.solicitudes div {
+    margin: 3rem 2rem;
+}
+
+.solicitudes table {
+    border-collapse: collapse;
+    font-size: 0.65rem;;
+    text-align: center;
+    width: 100%;
+}
+
+.solicitudes tr {
+    height: 2.5rem;
+}
+
+.solicitudes tr:nth-of-type(2n) {
+    background-color: #eae0d8;
+  }
+
+  .solicitudes td, th {
+      border-right: solid 3px #3a1e01;
+  }
+
+  .solicitudes tr :last-child {
+      border-right: none;
+  }
+
+  .smallCol {
+      width: 15%;
+  }
